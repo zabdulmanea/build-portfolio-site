@@ -60,3 +60,49 @@ hr {
     margin: 10px 0 20px 0;
     border: 0px; 
 }
+
+/* .text-background {
+    padding: 8px;
+	color: #3f2f22;
+    background-color: rgba(241,236,233,0.5);
+    border-radius: 10px;
+} */
+
+.banner {
+    position: relative;
+}
+
+.banner-text{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.about-me-link {
+    text-align: center;
+    font-weight: bold;
+}
+.about-me-link a {
+    border: 1px solid #959072;
+    background-color: rgba(63,47,34, 0.5);
+    padding: 10px;
+    border-radius: 3px;
+    color: #f1ece9;
+}
+
+.about-me-link a:hover,
+.about-me-link a:active {
+    text-decoration: none;
+    background-color: rgba(241,236,233, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #433f2b;
+}
+/* 
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+ */
