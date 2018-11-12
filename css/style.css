@@ -1,0 +1,23 @@
+
+/* @font-face {
+    font-family: "Exo2";
+    src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #003d60;  
+    line-height: 1.15;
+    background-color: #f1ece9;
+    
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+}
