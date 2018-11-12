@@ -1,4 +1,3 @@
-
 /* @font-face {
     font-family: "Exo2";
     src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
@@ -8,21 +7,21 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     display: block;
 }
 
 body {
     font-family: "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
-    color: #003d60;  
+    color: #605a43;
     line-height: 1.15;
     background-color: #f1ece9;
-    
 }
 
 .container {
-    width: 80%;    /*will change with responsive*/
+    width: 80%;
+    /*will change with responsive*/
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -36,9 +35,10 @@ body {
     justify-content: space-between;
     vertical-align: middle;
 }
+
 .logo {
-	max-width: 100px;
-    min-width: 100px;   
+    max-width: 100px;
+    min-width: 100px;
 }
 
 img {
@@ -51,14 +51,17 @@ img {
     text-transform: uppercase;
     line-height: 1;
     text-align: right;
+}
 
+.title {
+    color: #af9571;
 }
 
 hr {
     background: linear-gradient(90deg, #f1ece9 0%, #3f2f22 50%, #f1ece9 100%);
-	height: 3px;
+    height: 3px;
     margin: 10px 0 20px 0;
-    border: 0px; 
+    border: 0px;
 }
 
 /* .text-background {
@@ -72,7 +75,7 @@ hr {
     position: relative;
 }
 
-.banner-text{
+.banner-text {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -82,27 +85,64 @@ hr {
     text-align: center;
     font-weight: bold;
 }
+
 .about-me-link a {
     border: 1px solid #959072;
-    background-color: rgba(63,47,34, 0.5);
+    background-color: rgba(63, 47, 34, 0.5);
     padding: 10px;
     border-radius: 3px;
     color: #f1ece9;
 }
 
-.about-me-link a:hover,
-.about-me-link a:active {
+.about-me-link a:hover, .about-me-link a:active {
     text-decoration: none;
-    background-color: rgba(241,236,233, 0.1);
+    background-color: rgba(241, 236, 233, 0.1);
+    color: #f1ece9;
 }
 
 a {
     text-decoration: none;
-    color: #433f2b;
+    color: #f0e7d7;
+    border: 1px solid rgba(63, 47, 34, 0.5);
+    background-color: #959072;
+    padding: 10px;
+    border-radius: 3px;
 }
-/* 
-a:hover,
-a:active {
+
+a:hover, a:active {
     text-decoration: underline;
+    background-color: rgba(241,236,233, 0.5);
+    color: #959072;
 }
- */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article-content {
+    border: 1px solid #959072;
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.article-content:hover {
+    background-color: #e9dfcd;
+    border:0px;
+
+}
+
+.article-icon {
+    max-width: 180px;
+    min-width: 100px;
+    height: auto;
+}
+
+.article-title {
+    color: #af9571;
+}
