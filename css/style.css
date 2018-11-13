@@ -305,9 +305,24 @@ footer p {
 /***  CSS Validator
 --------------------------------------------------------------------------- ***/
 
-.css-validator {
+footer p, .css-validator-link{
+    margin: 0px;
+    padding: 0px;
+}
+
+.copyright-validator{
+    position: relative;
+}
+
+.css-validator{
+   position: absolute;
+   top:0px;
+   right: 0px;
+}
+.css-validator-link {
     border: 0;
     background: none;
+    margin-bottom: 15px;
 }
 
 .validator-img {
