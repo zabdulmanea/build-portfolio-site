@@ -86,8 +86,8 @@ hr {
 
 .banner-text {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    top: 0px;
+    right: 30px;
 }
 
 .about-me-link {
@@ -105,7 +105,7 @@ hr {
 
 .about-me-link a:hover, .about-me-link a:active {
     text-decoration: none;
-    background-color: rgba(241, 236, 233, 0.1);
+    background-color: rgba(0,61,96, 0.4);
     color: #f1ece9;
 }
 
