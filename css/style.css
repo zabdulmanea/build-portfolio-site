@@ -169,9 +169,9 @@ a:hover, a:active {
     margin-bottom: 10px;
 }
 
-.article-description{
+.article-description {
     color: #af9571;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 /***  footer style
@@ -216,16 +216,28 @@ footer p {
         width: 80px;
     }
     .name {
-        font-size: 1.4em;
+        font-size: 1.3em;
         font-weight: 500;
     }
     .title {
         font-size: 1em;
         margin-top: 5px;
     }
-    .banner-text {
-        top: 3px;
-        right: 5px;
+    .banner, .banner-text {
+        position: inherit;
+    }
+    .about-me-link, .about-me-link a {
+        margin: 0 auto;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .about-me-link a {
+        background-color: rgba(63, 47, 34);
+    }
+    .about-me-link a:hover, .about-me-link a:active {
+        text-decoration: none;
+        background-color: rgba(63, 47, 34, 0.1);
+        color: rgba(63, 47, 34);
     }
     .projects-header {
         font-size: 1.6em;
@@ -292,7 +304,8 @@ footer p {
 
 /***  CSS Validator
 --------------------------------------------------------------------------- ***/
-.css-validator{
+
+.css-validator {
     border: 0;
-    background:none;
+    background: none;
 }
