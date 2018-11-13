@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -119,6 +119,8 @@ a {
     background-color: #959072;
     padding: 10px;
     border-radius: 3px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 a:hover, a:active {
@@ -140,7 +142,7 @@ a:hover, a:active {
 .article-content {
     border: 1px solid #959072;
     border-radius: 10px;
-    width: 30%;
+    width: 32%;
     height: auto;
     text-align: center;
     padding: 20px;
@@ -163,9 +165,13 @@ a:hover, a:active {
 }
 
 .article-title {
-    color: #af9571;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.article-description{
+    color: #af9571;
+    margin:0 auto;
 }
 
 /***  footer style
@@ -272,7 +278,7 @@ footer p {
 /***  Viewport - between 601px and 830px (2 projects per row) 
 --------------------------------------------------------------------------- ***/
 
-@media screen and (min-width: 601px) and (max-width: 830px) {
+@media screen and (min-width: 601px) and (max-width: 900px) {
     .projects {
         display: flex;
         flex-flow: row wrap;
