@@ -53,7 +53,8 @@ img {
     text-align: right;
 }
 
-.name, .title {
+.name,
+.title {
     margin-top: 15px;
     margin-bottom: 0px;
 }
@@ -103,9 +104,10 @@ hr {
     color: #f1ece9;
 }
 
-.about-me-link a:hover, .about-me-link a:active {
+.about-me-link a:hover,
+.about-me-link a:active {
     text-decoration: none;
-    background-color: rgba(0,61,96, 0.4);
+    background-color: rgba(0, 61, 96, 0.4);
     color: #f1ece9;
 }
 
@@ -123,7 +125,8 @@ a {
     margin-top: 10px;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
     text-decoration: underline;
     background-color: rgba(241, 236, 233, 0.5);
     color: #959072;
@@ -223,10 +226,12 @@ footer p {
         font-size: 1em;
         margin-top: 5px;
     }
-    .banner, .banner-text {
+    .banner,
+    .banner-text {
         position: inherit;
     }
-    .about-me-link, .about-me-link a {
+    .about-me-link,
+    .about-me-link a {
         margin: 0 auto;
         margin-top: 0px;
         width: 100%;
@@ -234,7 +239,8 @@ footer p {
     .about-me-link a {
         background-color: rgb(63, 47, 34);
     }
-    .about-me-link a:hover, .about-me-link a:active {
+    .about-me-link a:hover,
+    .about-me-link a:active {
         text-decoration: none;
         background-color: rgba(63, 47, 34, 0.1);
         color: rgb(63, 47, 34);
@@ -305,20 +311,22 @@ footer p {
 /***  CSS Validator
 --------------------------------------------------------------------------- ***/
 
-footer p, .css-validator-link{
+footer p,
+.css-validator-link {
     margin: 0px;
     padding: 0px;
 }
 
-.copyright-validator{
+.copyright-validator {
     position: relative;
 }
 
-.css-validator{
-   position: absolute;
-   top:0px;
-   right: 0px;
+.css-validator {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
+
 .css-validator-link {
     border: 0;
     background: none;
