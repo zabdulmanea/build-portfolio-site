@@ -121,15 +121,17 @@ a:hover, a:active {
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
+    justify-content: space-between;
 }
 
 .article-content {
     border: 1px solid #959072;
     border-radius: 10px;
+    width: 30%;
     height: auto;
     text-align: center;
-    margin: 0 auto;
     padding: 20px;
+    margin-bottom: 10px;
 }
 
 .article-text {
@@ -142,7 +144,7 @@ a:hover, a:active {
 }
 
 .article-icon {
-    max-width: 180px;
+    max-width: 120px;
     min-width: 100px;
     height: auto;
 }
@@ -209,8 +211,6 @@ footer p {
     .article-content {
         width: 100%;
         height: auto;
-        margin: 0 auto;
-        margin-bottom: 10px;
     }
     .article-title {
         font-size: 1.4em;
@@ -244,5 +244,17 @@ footer p {
     }
     .article-text {
         width: 70%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 830px) {
+    .projects {
+        display: flex;
+        flex-flow: row wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .article-content {
+        width: 49%;
     }
 }
