@@ -232,12 +232,12 @@ footer p {
         width: 100%;
     }
     .about-me-link a {
-        background-color: rgba(63, 47, 34);
+        background-color: rgb(63, 47, 34);
     }
     .about-me-link a:hover, .about-me-link a:active {
         text-decoration: none;
         background-color: rgba(63, 47, 34, 0.1);
-        color: rgba(63, 47, 34);
+        color: rgb(63, 47, 34);
     }
     .projects-header {
         font-size: 1.6em;
