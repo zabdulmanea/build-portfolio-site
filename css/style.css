@@ -283,3 +283,10 @@ footer p {
         width: 49%;
     }
 }
+
+/***  CSS Validator
+--------------------------------------------------------------------------- ***/
+.css-validator{
+    border: 0;
+    background:none;
+}
